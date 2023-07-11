@@ -170,38 +170,35 @@ span{
     margin-top: 5%;
 }
 
-/* instagram-section */
-
-.info-details{
+/* instagram-about-section */
+.about-info{
     margin-top: 10%;
+
+}
+.about-insta{
     text-align: center;
-    margin-bottom:5%;
+    margin-bottom: 5%;
 }
-.info-details h1{
+.about-insta h1{
     font-size: 40px;
-    margin: 20px;
+    margin: 20px 0px;
 }
-.info-details p{
+.about-insta p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    margin: 20px;
+    margin: 20px 0px;
+}
+.about-img-container{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+    gap: 20px;
 }
 .img-tag{
     border-radius: 10px;
+    width: 320px;
 }
-.details{
-    margin-bottom: 10%;
-}
-.instagram-details{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: 20px auto;
-    gap: 20px;
-    
-}
-
-
 
 /* details-info  */
 
