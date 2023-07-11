@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(253, 238, 238);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-details{
+    margin-top: 5%;
+}
+
+
+.container-details h1{
+    font-size: 80px;
+    margin: 40px 0px;
+}
+.container-details p{
+    margin: 20px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.btn{
+    color: aliceblue;
+    width: 177px;
+    height: 58px;
+    border: none;
+    background-color: #E55473;
+    border-radius: 10px;
+}
+
+.container-img{
+    margin-top: 50px;
+}
+   
+/* feature-flowers */
+
+.future-container-section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.future-text{
+    text-align: center;
+}
+
+.future-text h1{
+    font-size: 40px; 
+    margin: 20px 0px;
+}
+
+
+.future-img{
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.flower-container{
+    text-align: center;
+   width: 400px;
+   height: 450px;
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(167, 33, 98, 0.15);
+}
+.flower-container-two{
+    text-align: center;
+   width: 400px;
+   height: 450px;
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(5, 151, 160, 0.15);
+}
+.flower-container-three{
+    text-align: center;
+   width: 400px;
+   height: 450px;
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(71, 125, 17, 0.15);
+}
+
+.png-tag{
+    margin-top: 100px;
+    width: 250px;
+    height: 350px;
+}
+.p-tag{
+    margin-top: 20px;
+}
+
+
+/* 2nd-part */
+
+
+.flower-second-section{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 80%;
+    margin: 20px auto;
+    height: 320px;
+    align-items: center;
+}
+.our-collation{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+
+.product{
+   text-align: center;
+   margin-top: 6%;
+}
+.p-product{
+    margin-top: 15px;
+}
+
+/* third-part */
+
+.banner{
+    margin-top: 10%;
+    width: 100%;
+    height: 580px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+   
+}
+
+.banner-section{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.banner-details{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.banner-details h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.banner-details p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin: 20px;
+}
+span{
+    color: #E55473;
+}
+
+.banner-img{
+    margin-top: 5%;
+}
+
+/* instagram-section */
+
+.info-details{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom:5%;
+}
+.info-details h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.info-details p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin: 20px;
+}
+.img-tag{
+    border-radius: 10px;
+}
+.details{
+    margin-bottom: 10%;
+}
+.instagram-details{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+    
+}
+
+
+
+/* details-info  */
+
+.website{
+   
+    width: 80%;
+    background: url('./image/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 449px;
+    margin: 20px auto;
+    overflow: hidden;
+   border-radius: 10px;
+    
+}
+
+
+.web-info{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 50%;
+}
+.web-info h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.web-info p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin: 20px;
+}
+
+.input-text{
+    border: none;
+    border-radius: 10px;
+    width: 700px;
+    height: 35px;
+    padding: 10px;
+}
+
+/* footer-section */
+
+
+.footer{
+   margin-top: 10%;
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    color: aliceblue;
+    overflow: hidden;
+   
+   
+}
+.footer-details{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.footer-details h1{
+    font-size: 48px;
+    margin: 20px;
+}
+.footer-details p{
+    font-size: 18px;
+    margin: 20px;
+}
+
+small{
+    color: rgba(255, 255, 255, 0.40);
+}
+
